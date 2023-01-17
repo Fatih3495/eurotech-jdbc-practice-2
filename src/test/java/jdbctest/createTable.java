@@ -20,6 +20,7 @@ public class createTable {
                                                      "ders VARCHAR(30),\n" +
                                                      "notu INT,\n" +
                                                      "PRIMARY KEY (id))";
+
             stmt.executeUpdate(sql);
             System.out.println("Table oluşturma tamam...");
             stmt.close();
